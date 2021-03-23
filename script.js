@@ -12,7 +12,7 @@ function randomizer () {
   randomnumber = parseInt(randomnumber)
   /* this also converts the random number generated into an actual numbeer */
   if (userGuess === randomnumber) {
-    document.getElementById('answer').innerHTML = 'You Won! Refresh to play again!
+    document.getElementById('answer').innerHTML = 'You Won! Refresh to play again!'
     /* displays only if the guess was correct */
   }
 }
